@@ -1,0 +1,97 @@
+.card {
+  /* color: var(--text-color); */
+  background: transparent;
+  border: none;
+}
+.card .title {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 2px;
+  padding: 1rem 1rem 0.5rem 50px;
+}
+.card .title::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  width: 32px;
+  height: 32px;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.card .content {
+  border-radius: 0 0 20px 20px;
+  padding: 1rem;
+  min-height: 100px;
+}
+
+/* White */
+.card--white {
+  color: var(--my-blue);
+}
+.card--white .title {
+  background-color: var(--t-white);
+}
+.card--white .title::before {
+  border-color: val(--my-blue);
+}
+.card--white .content {
+  background-color: var(--t-white);
+}
+
+/* Blue */
+.card--blue {
+  color: var(--t-white);
+}
+.card--blue .title {
+  background-color: var(--t-blue);
+}
+.card--blue .title::before {
+  border-color: var(--t-white);
+}
+.card--blue .content {
+  background-color: var(--t-blue);
+}
+
+/* Orange */
+.card--orange {
+  color: var(--t-white);
+}
+.card--orange .title {
+  background-color: var(--t-orange-light);
+}
+.card--orange .title::before {
+  border-color: var(--t-white);
+}
+.card--orange .content {
+  background-color: var(--t-orange-light);
+}
+
+/* Orange Dark */
+.card--orange-dark {
+  color: var(--t-white);
+}
+.card--orange-dark .title {
+  background-color: var(--t-orange-dark);
+}
+.card--orange-dark .title::before {
+  border-color: var(--t-white);
+}
+.card--orange-dark .content {
+  background-color: var(--t-orange-dark);
+}
+
+/* Orange Mixed */
+.card--orange-mixed {
+  color: var(--t-blue);
+}
+.card--orange-mixed .title {
+  background-color: var(--t-orange-light);
+}
+.card--orange-mixed .title::before {
+  border-color: var(--t-blue);
+}
+.card--orange-mixed .content {
+  background-color: var(--t-orange-dark);
+  color: white;
+}

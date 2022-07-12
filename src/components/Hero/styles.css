@@ -1,0 +1,10 @@
+.hero {
+  position: relative;
+  z-index: 3;
+  width: 50%;
+  color: white;
+  min-height: 400px;
+  background-color: aquamarine;
+  background-repeat: no-repeat;
+  background-position: -90px -125px;
+}

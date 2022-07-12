@@ -1,0 +1,17 @@
+.app {
+  min-height: 2000px;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgb(245, 236, 241) 0%,
+      #39d 100%
+    );
+}
+
+.hero-container {
+  display: flex;
+}
+
+.content-section {
+  margin-top: 20px;
+}

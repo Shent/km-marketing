@@ -1,0 +1,32 @@
+.header {
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  z-index: 10;
+  background-image:
+    linear-gradient(
+      to right,
+      rgb(245, 236, 241) 0%,
+      #39d 50%
+    );
+}
+
+.header .logo {
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 60px;
+  animation: linear;
+  animation-name: run;
+  animation-duration: 1s;
+}
+
+@keyframes run {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+}
